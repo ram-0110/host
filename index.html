@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My Work Showcase</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+          Arial;
+        line-height: 1.5;
+        margin: 40px;
+        color: #111;
+      }
+      header {
+        margin-bottom: 24px;
+      }
+      .card {
+        border-radius: 12px;
+        padding: 18px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+        max-width: 900px;
+      }
+      h1 {
+        margin: 0 0 6px 0;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 12px;
+        margin-top: 12px;
+      }
+      .proj {
+        padding: 12px;
+        border-radius: 8px;
+        background: #fff;
+      }
+      footer {
+        margin-top: 28px;
+        color: #555;
+        font-size: 0.95rem;
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <header>
+        <h1>My Work Showcase</h1>
+        <p>Small portfolio page demonstrating projects and contact email.</p>
+      </header>
+
+      <section>
+        <h2>Selected projects</h2>
+        <div class="projects">
+          <article class="proj">
+            <strong>Project A</strong>
+            <p>Short description of Project A — what it does and tech used.</p>
+          </article>
+          <article class="proj">
+            <strong>Project B</strong>
+            <p>Short description of Project B — what it does and tech used.</p>
+          </article>
+          <article class="proj">
+            <strong>Project C</strong>
+            <p>Short description of Project C — what it does and tech used.</p>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Contact:
+          <!--email_off-->23f1003076@ds.study.iitm.ac.in<!--/email_off-->
+        </p>
+        <p>Hosted on GitHub Pages.</p>
+      </footer>
+    </div>
+  </body>
+</html>
